@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Inter, sans-serif;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label {
+    font-weight: normal;
+}
+.container-card {
+    color: #242323;
+    border: 5px solid gray;
+    height: auto;
+    width: 400px;
+}
+
+/* --------- START HEADER CARD --------- */
+.header-card {
+    width: 100%;
+    background-color: red;
+}
+.bar-logos {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+}
+.bar-info {
+    font-size: 1.08em;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+}
+.bar-info p:nth-child(1) {
+    margin-bottom: 5px;
+    font-weight: lighter;
+}
+
+/* --------- END HEADER CARD --------- */
+
+/* --------- START BODY CARD --------- */
+.body-card {
+    border-bottom: 5px solid gray;
+    padding: 5% 7%;
+}
+.body-card p {
+    margin: 10px 0px;
+    font-weight: bolder;
+    font-size: .9em;
+}
+
+/* --------- END BODY CARD --------- */
+
+/* --------- START FOOTER CARD --------- */
+.footer-card {
+    display: flex;
+    padding: 5px 10px 5px 5px;
+}
+.lineas-soporte {
+    display: flex;
+}
+.lineas-soporte h1 {
+    color: red;
+}
+.info-soporte {
+    width: 320px;
+    flex-grow: 1;
+    margin-right: 5px;
+    padding: 10px 50px 5px 10px;
+    border-radius: 20px;
+    box-shadow: 2px 4px 20px -10px rgb(110, 109, 109);
+}
+.info-soporte div p {
+    margin-right: 25%;
+}
+.info-2 {
+    margin-top: 3px;
+    display: flex;
+    align-items: center;
+    font-size: small;
+}
+.lineas-soporte div:nth-child(2)>img {
+    position: relative;
+    right: 94px;
+    top: 10px;
+}
+/* --------- END FOOTER CARD --------- */
