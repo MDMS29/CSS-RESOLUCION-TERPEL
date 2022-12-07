@@ -60,6 +60,7 @@ label {
 .footer-card {
     display: flex;
     padding: 5px 10px 5px 5px;
+    overflow: hidden;
 }
 .lineas-soporte {
     display: flex;
@@ -67,6 +68,7 @@ label {
 .lineas-soporte h1 {
     color: red;
 }
+
 .info-soporte {
     width: 320px;
     flex-grow: 1;
@@ -78,6 +80,7 @@ label {
 .info-soporte div p {
     margin-right: 25%;
 }
+
 .info-2 {
     margin-top: 3px;
     display: flex;
